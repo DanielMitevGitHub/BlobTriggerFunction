@@ -72,8 +72,10 @@ Das Ergebnis wird im Container `graubilder` gespeichert.
 ## PowerShell / Azure CLI
 
 Für die Erstellung und Prüfung der Azure-Ressourcen wurden Azure CLI Befehle verwendet.
-Der verwendete PowerShell-Code befindet sich später im Ordner `Scripts`.
 
+Der verwendete PowerShell-Code befindet sich im Ordner `Scripts`:
+
+[Azure_Blobtrigger.ps1](Scripts/Azure_Blobtrigger.ps1)
 ## Screenshots
 
 ### Farbbild im Eingangscontainer
