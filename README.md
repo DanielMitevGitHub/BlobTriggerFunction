@@ -76,12 +76,19 @@ Der verwendete PowerShell-Code befindet sich später im Ordner `Scripts`.
 
 ## Screenshots
 
-Die Screenshots zeigen:
+### Farbbild im Eingangscontainer
 
-* Upload eines Bildes in den Container `farbbilder`
-* Ausführung der Azure Function
-* Ergebnis im Container `graubilder`
-* Graustufenbild nach der Verarbeitung
+Das folgende Bild wurde in den Blob-Container `farbbilder` hochgeladen.
+
+![Farbbild](Screenshots/bild1.jpg)
+
+### Graustufenbild im Ausgangscontainer
+
+Nach dem Upload wurde die Azure Function automatisch durch den Blob Trigger gestartet.
+Das Bild wurde verarbeitet und als Graustufenbild im Container `graubilder` gespeichert.
+
+![Graustufenbild](Screenshots/grau-bild1.jpg)
+
 
 ## Ergebnis
 
